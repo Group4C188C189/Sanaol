@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".call"
+    android:orientation="vertical"
+    android:background="#f9caa7"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WeConnect"
+        android:background="#fe9c8f"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginTop="200sp"
+        android:textSize="25sp"
+        android:hint="Enter Phone Number"/>
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:text="CALL"
+        android:layout_marginTop="30sp"
+        android:textSize="25sp"
+        android:backgroundTint="#E8967A"
+        />
+
+</LinearLayout>
